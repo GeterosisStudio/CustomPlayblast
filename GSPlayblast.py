@@ -853,7 +853,7 @@ class GeterosisPlayblastVisibilityDialog(QtWidgets.QDialog):
         self.VisibilityCheckboxes = []
 
         for i in range(len(GeterosisPlayblast.VIEWPORT_VISIBILITY_LOOKUP)):
-            Checkbox = QtWidgets.QCheckBox(ZurbriggPlayblast.VIEWPORT_VISIBILITY_LOOKUP[i][0])
+            Checkbox = QtWidgets.QCheckBox(GeterosisPlayblast.VIEWPORT_VISIBILITY_LOOKUP[i][0])
 
             VisibilityLayout.addWidget(Checkbox, Index / 3, Index % 3)
             self.VisibilityCheckboxes.append(Checkbox)
